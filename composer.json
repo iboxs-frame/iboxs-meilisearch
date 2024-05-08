@@ -1,0 +1,30 @@
+{
+    "name": "iboxs/meilisearch",
+    "description": "Meilisearch开发集成包",
+    "type": "1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zqu",
+            "email": "zqu1016@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iboxs\\payment\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+
+        ]
+    }
+}
