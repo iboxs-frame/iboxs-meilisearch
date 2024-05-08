@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "iboxs\\payment\\": "src/"
+            "iboxs\\meilisearch\\": "src/"
         },
         "files": [
             "src/helper.php"
