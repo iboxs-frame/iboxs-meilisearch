@@ -13,7 +13,7 @@ class BaseApi{
     }
 
     public function postJson($url,$data){
-        $ret=Basic::Http($this->host."/".$url)->setHeader([
+        $ret=Basic::Http($url)->setHeader([
             'Authorization: Bearer '. $this->apiKey['adminKey']
         ])->postJson(array_filter($data));
         return $ret;
